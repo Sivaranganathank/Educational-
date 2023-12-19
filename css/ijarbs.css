@@ -1,0 +1,88 @@
+.upc
+{
+	background-color:#8db8fc;
+	width:100%;
+	height:15px;
+}
+
+.img
+{
+	margin-left:15px;
+	float:left;
+}
+
+h1
+{
+	text-align:center;
+	font-family:Arial;
+	font-size:20px;
+}
+
+.doc
+{
+	margin-top:40px;
+	background-color:#8db8fc;
+	width:100%;
+	height:15px;
+}
+
+.para1
+{
+	text-align:center;
+	font-family:Arial;
+	font-size:20px;
+}
+
+.para2
+{
+	color:#0D086D;
+	text-align:center;
+	font-family:Arial;
+	font-size:20px;
+}
+
+#header
+{
+	background-color:#8db8fc;
+	width:100%;
+	height:70px;
+}
+
+#header ul
+{ 
+
+	float:left;
+}
+
+#header ul li
+{
+
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	margin-left:2px;
+	position: relative;
+	
+}
+
+#header ul li a
+{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	font-size:21px;
+}
+
+#header ul li::after{
+	content: ' ';
+	height: 3px;
+	width: 0;
+	background:blue;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+#header ul li:hover::after{
+	width: 100%;
+}

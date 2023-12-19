@@ -1,0 +1,329 @@
+body
+{
+	background-image:url('../image/bg4.jpg');
+	background-repeat:no-repeat;
+}
+
+label
+{
+	color:orange;
+}
+
+
+h1
+{
+	
+	border-radius: 25px;
+	color:white;
+	background-color:#76A89D;
+}
+
+table
+{
+	width:50%;
+	border:5px solid #86AEA6;
+	background-color:rgb(0,0,0,0.5);
+	border-radius: 25px;
+}
+
+form
+{
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+	margin-left:20px;
+}
+
+.text
+{
+	margin-left:205px;
+	margin-top:15px;
+	font-family:arial;
+	
+}
+
+.add
+{
+	margin-left:185px;
+	margin-top:15px;
+	font-family:arial;
+}
+
+.mob
+{
+	margin-left:170px;
+	margin-top:15px;
+}
+
+.wtmob
+{
+	margin-left:75px;
+	margin-top:15px;
+}
+
+.qua
+{
+	margin-left:150px;
+	margin-top:15px;
+}
+
+.cas
+{
+	margin-left:113px;
+	margin-top:23px;
+	font-family:arial;
+	font-size:20px;
+}
+
+.dat
+{
+	margin-left:220px;
+	margin-top:20px;
+	font-family:arial;
+}
+
+
+.tim
+{
+	margin-left:225px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.chec
+{
+	margin-left:20px;
+}
+.cgs
+{
+	margin-left:280px;
+	margin-top:15px;
+}
+
+.tele
+{
+	margin-left:0px;
+	margin-top:15px;
+}
+
+.fac
+{
+	margin-left:30px;
+	margin-top:15px;
+}
+
+.enq
+{
+	margin-left:85px;
+	margin-top:15px;
+}
+
+.go
+{
+	margin-left:135px;
+	margin-top:20px;
+}
+
+.de
+{
+	margin-left:70px;
+	margin-top:20px;
+}
+
+.fe
+{
+	margin-left:50px;
+	margin-top:20px;
+}
+
+.fo
+{
+	margin-left:160px;
+	margin-top:20px;
+}
+
+button 
+{
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  width:160px;
+  height:40px;
+  color:white;
+  border-radius: 25px;
+  background-color:#76A89D;
+  
+}
+
+a
+{
+	 text-decoration:none;
+	 color:white;
+}
+
+h1
+{
+	text-align:center;
+}
+
+form input, form textarea
+{
+	font-size:18px;
+}
+
+
+input[type=text]{
+  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+   height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+
+input[type=text]:focus {
+  border: 2px solid #f09707;
+}
+
+input[type=tel]{
+  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+   height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+
+}
+
+
+input[type=tel]:focus {
+  border: 2px solid #f09707;
+}
+
+input[type=time]{
+  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+   height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+
+input[type=time]:focus {
+  border: 2px solid #f09707;
+}
+
+
+textarea{
+  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+
+textarea:focus {
+  border: 2px solid #f09707;
+}
+
+
+table {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+
+
+#header ul
+{ 
+	margin-left:390px;
+	float:left;
+	
+}
+
+#header ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	text-align:center;
+}
+#header ul li a
+{
+	color:black;
+	text-decoration:none;
+	font-size:18px;
+}
+
+#header ul li::after
+{
+	content: ' ';
+	height: 3px;
+	width: 0;
+	background:#636cf8;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+#header ul li:hover::after
+{
+	width: 100%;
+}
+
+.stic
+{
+	width:100%;
+	height:50px;
+	background-image:url('../image/bg4.jpg');
+	background-position:bottom;
+	position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: white;
+  font-size: 20px;
+}
+

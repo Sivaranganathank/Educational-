@@ -1,0 +1,367 @@
+body
+{
+	
+	background-image:url('../image/bg4.jpg');
+	background-repeat:no-repeat;
+}
+
+
+label
+{
+	color:orange;
+}
+
+h1
+{
+	text-align:center;
+	border-radius: 25px;
+	color:white;
+	background-color:#76A89D;
+}
+
+h2
+{
+	text-align:center;
+}
+
+.tab
+{
+	width:50%;
+	font-family:Arial;
+	border:5px solid ;
+	background-color:rgb(0,0,0,0.5);
+	border-radius: 25px;
+	border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+
+form
+{
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+	margin-left:20px;
+}
+
+.c1
+{
+	font-family:Arial;
+	font-size:20px;
+	margin-left:40px;
+}
+
+.s1
+{
+	font-family:Arial;
+	font-size:20px;
+	margin-left:35px;
+}
+
+input[type=text] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+input[type=tel] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+input[type=email] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+input[type=date] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+input[type=time] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+textarea
+{
+  height:100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+select {
+	width:25%;
+	height:30px;
+  font-family:Arial;
+  border-radius: 4px;
+  font-size:18px;
+}
+
+table
+{
+	color:white;
+	 font-family:Arial;
+	 border-radius:10px;
+	 border:2px solid ;
+	 width:100%;
+}
+
+.text
+{
+	margin-left:205px;
+	margin-top:22px;
+	font-family:arial;
+	
+}
+
+.f1
+{
+	margin-left:40px;
+	margin-top:23px;
+	font-family:arial;
+	
+}
+
+.occ
+{
+	margin-left:10px;
+	margin-top:23px;
+	font-family:arial;
+	
+}
+
+.incom
+{
+	margin-left:145px;
+	margin-top:23px;
+	font-family:arial;
+	
+}
+
+.dob
+{
+	margin-top:23px;
+	font-family:arial;
+}
+
+.age
+{
+	margin-left:14px;
+	font-family:arial;
+}
+
+.gen
+{
+	margin-left:65px;
+	font-family:arial;
+}
+
+.edu
+{
+	margin-left:33px;
+	margin-top:23px;
+	font-family:arial;
+	
+}
+
+.rel
+{
+	
+	margin-left:10px;
+	font-family:arial;
+	
+}
+
+.cas
+{
+	margin-left:113px;
+	margin-top:23px;
+	font-family:arial;
+	
+}
+
+.cas1
+{
+	margin-left:30px;
+	font-family:arial;
+	
+}
+
+.occu
+{
+	margin-left:153px;
+	margin-top:23px;
+	font-family:arial;	
+}
+
+.col
+{
+	margin-left:95px;
+	margin-top:23px;
+	font-family:arial;
+}
+
+.add
+{
+	margin-left:295px;
+	margin-top:23px;
+	font-family:arial;
+}
+	
+	
+.mob
+{
+	margin-left:280px;
+	margin-top:23px;
+	font-family:arial;
+}
+
+.wtmob
+{
+	margin-left:182px;
+	margin-top:23px;
+	font-family:arial;
+}
+
+.mail
+{
+	margin-left:290px;
+	margin-top:23px;
+	font-family:arial;
+}
+
+.idn
+{
+	margin-left:35px;
+	font-family:arial;
+}
+
+.idni
+{
+	margin-left:88px;
+	font-family:arial;
+}
+.idp
+{
+	margin-left:13px;
+	margin-top:23px;
+	font-family:arial;
+}
+
+.dat
+{
+	margin-left:45px;
+	margin-top:20px;
+	font-family:arial;
+}
+
+.tim
+{
+	margin-left:15px;
+	font-family:arial;
+}
+.tim1
+{
+	margin-left:133px;
+	font-family:arial;
+}
+
+
+
+.fee
+{
+	margin-left:5px;
+	margin-top:20px;
+	font-family:arial;
+}
+
+
+.met
+{
+	margin-left:40px;
+	font-family:arial;
+}
+
+
+
+.pay
+{
+
+	margin-top:20px;
+	font-family:arial;
+}
+.schm
+{
+	margin-left:38px;
+	font-family:arial;
+}
+
+.schm1
+{
+	margin-left:100px;
+	font-family:arial;
+}
+	
+button 
+{
+  font-size: 20px;
+  border: solid #76A89D;
+  cursor: pointer;
+  text-align: center;
+  width:160px;
+  height:40px;
+  color:white;
+  border-radius: 25px;
+  background-color:#76A89D;
+  margin-top:20px;
+}
+
+a
+{
+	 text-decoration:none;
+	 color:white;
+}

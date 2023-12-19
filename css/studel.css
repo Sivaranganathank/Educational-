@@ -1,0 +1,246 @@
+body
+{
+	
+	background-image:url('../image/bg4.jpg');
+	background-repeat:no-repeat;
+}
+
+.add
+{
+	
+}
+.hed
+{
+	text-align:center;
+	border-radius: 25px;
+	color:white;
+	background-color:#76A89D;
+}
+
+h2
+{
+	font-family:arial;
+	margin-top:2px;
+	color:#FFFFFF;
+}
+
+table
+{
+     border: 1px solid #FFFFFF;
+	 font-family:Arial;
+	 border-radius:10px;
+	 width:700px;
+	 margin-top:15px;
+}
+
+th
+{
+	color:orange;
+	 border: 2px solid #76A89D;
+	 font-family:Arial;
+	 border-radius:5px;
+	 width:600px;
+	 margin-top:15px;
+}
+
+td
+{
+	color:orange;
+	 border: 1px solid #FFFFFF;
+	 font-family:Arial;
+	 border-radius:5px;
+	 width:600px;
+	 margin-top:15px;
+}
+
+	
+.div1
+{
+	width:800px;
+	float:left;
+}	
+
+.div2
+{
+  width: 150px;
+  height: 183px;  
+  padding: 50px;
+  margin-left:800px;
+  margin-top:15px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.div3
+{
+	color:orange;
+}
+
+.the
+{
+	margin-top:5px;
+}
+
+textarea
+{
+  width:350px;
+	height:100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+.sno
+{
+	width:70px;
+}
+
+
+.tab
+{
+	width:50%;
+	font-family:Arial;
+	border:5px solid white;
+	background-color:rgb(0,0,0,0.5);
+	border-radius: 25px;
+	border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+	
+input[type=text] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+input[type=time] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+input[type=tel] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+	background-color:#767676;
+  color:white;
+}
+
+.schm
+{
+	width:150px;
+	margin-right:15px;
+}
+
+.tim
+{
+	margin-right:15px;
+}
+
+.wtmob
+{
+	margin-top:25px;
+	width:150px;
+	margin-bottom:25px;
+}
+
+.dat
+{
+	margin-left:20px;
+}
+
+.iss
+{
+	margin-top:10px;
+	margin-left:35px;
+}
+
+.ove
+{
+	margin-left:20px;
+}
+
+
+form
+{
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+	margin-left:20px;
+}
+
+
+.name
+{
+	text-align:center;
+	margin-top:10px;
+}
+
+.cert
+{
+	margin-top:10px;
+}
+
+button 
+{
+  font-size: 20px;
+  border: solid #76A89D;
+  cursor: pointer;
+  text-align: center;
+  width:160px;
+  height:40px;
+  color:white;
+  border-radius: 25px;
+  background-color:#76A89D;
+  margin-top:20px;
+
+}
+
+a
+{
+	 text-decoration:none;
+	 color:white;
+}
+
+.formfield{
+  display: flex;
+  align-items: center;
+  color:orange;
+  margin-left:250px;
+}
+

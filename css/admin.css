@@ -1,0 +1,119 @@
+body
+{
+	background-image:url('../image/bg4.jpg');
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:top;
+	align:center;
+}
+
+.box1
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;
+}
+
+.box2
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;		
+}
+
+.box3
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;		
+}
+
+.box4
+{
+	wwidth:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;		
+}
+
+.box5
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;	
+}
+
+.box6
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;	
+}
+
+.box7
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;		
+}
+
+.box8
+{
+	width:200px;
+	margin:40px;
+	float:left;	
+margin-top:200px;	
+}
+
+
+
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 15px 700px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+    background: transparent;
+    color:#fff ;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+	color:black;
+}
+span{
+	background: #009688;
+	width: 0%;
+	height: 100%;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+
+button:hover{
+	border: none;
+}
+button a{
+	text-decoration:none;
+	color:black;
+	
+}

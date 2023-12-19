@@ -1,0 +1,123 @@
+body
+{
+	background-image:url('../image/bg4.jpg');
+	background-repeat:no-repeat;
+}
+
+h1
+{
+	margin-left:385px;
+	text-align:center;
+	border-radius: 25px;
+	width:50%;
+	color:white;
+	background-color:#76A89D;
+}
+
+
+table
+{
+    width:70%;
+	font-family:Arial;
+	background-color:rgb(0,0,0,0.5);
+	border: 0.2rem solid #fff;
+  border-radius: 1rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.5rem #bc13fe,
+              0 0 1.5rem #bc13fe,
+              inset 0 0 1.1rem #bc13fe;
+}
+
+th
+{
+	color:White;
+	 border: 2px solid Orange;
+	 font-family:Arial;
+	 border-radius:2%;
+	 width:5%;
+}
+
+td
+{
+	padding:0.5%;
+	color:orange;
+	 border: 1px solid #FFFFFF;
+	 font-family:Arial;
+	 font-size:20px;
+	 border-radius:5%;
+	 margin-top:5%;
+	 text-align:center;
+}
+
+
+.dat
+{
+	margin-left:13%;
+}
+
+button 
+{
+  font-size: 20px;
+  border: solid #76A89D;
+  cursor: pointer;
+  text-align: center;
+  width:160px;
+  height:40px;
+  color:white;
+  border-radius: 25px;
+  background-color:#76A89D;
+  margin-top:20px;
+}
+
+a
+{
+	 text-decoration:none;
+	 color:white;
+}
+
+.tab
+{
+	margin-left:395px;
+	width:50%;
+	height:10%;
+}
+
+.date
+{
+	margin-right:20px;
+}
+
+.schm
+{
+	margin-left:500px;
+}
+
+input[type=text] {
+  height:30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+  font-size:20px;
+  background-color:#767676;
+  color:white;
+}
+
+.but
+{
+	float:left;
+}
+
+.add
+{
+	float:right;
+}
+
+.rem
+{
+	float:right;
+}
