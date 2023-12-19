@@ -1,0 +1,579 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="..\css\fee.css"></link>
+</head>
+<style>
+
+td
+{
+	padding:0.5%;
+	color:orange;
+	 border: 1px solid #FFFFFF;
+	 font-family:Arial;
+	 font-size:20px;
+	 border-radius:5%;
+	 margin-top:5%;
+	 text-align:center;
+}
+
+
+.schm
+{
+	margin-left:1px;
+}
+
+h1
+{
+	margin-left:385px;
+	text-align:center;
+	border-radius: 25px;
+	width:50%;
+	color:white;
+	background-color:#76A89D;
+}
+
+table
+{
+    width:70%;
+}
+</style>
+<body>
+<form action ="feeconn.php" method="post">
+<h1>Fee Structure</h1>
+<table class="tab">
+<td>
+
+<label for="date" >Date:</label>
+<input type="date" class="date" name="txtDate1">
+
+<label for="date">From:</label>
+<input type="date" id="date" name="txtDate2" >
+
+  <label for="date">To:</label>
+<input type="date" id="date" name="txtDate3" >
+<br><br>
+  <label for="col" class="schm">Scheme:</label>
+  <input type="text"  name="txtScheme" size="10px" >
+   
+</td>
+
+</table>
+<br><br>
+<center>
+<table id="myTable">
+
+<tr>
+<th>S.No</th>
+<th>Course</th>
+<th>Regular Fee</th>
+<th>Offer Fee</th>
+<th>Easy Pay</th>
+</tr>
+
+<tr>
+<td>1
+<td>DBS
+<td>
+  <input type="text"  name="txtDrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>2
+<td>DDNET-Basic
+<td>
+  <input type="text"  name="txtDdrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>3
+<td>DCAD-Basic
+<td>
+  <input type="text"  name="txtDcrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDcofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDcepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>4
+<td>Youtube Creator
+<td>
+  <input type="text"  name="txtYrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtYofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtYepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>5
+<td>DCCP
+<td>
+  <input type="text"  name="txtDcprfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDcpofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDcpepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>6
+<td>DTP
+<td>
+  <input type="text"  name="txtDtrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDtofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDtepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>7
+<td>DBCS
+<td>
+  <input type="text"  name="txtDbrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDbofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDbepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>8
+<td>DWD-Basic
+<td>
+  <input type="text"  name="txtDwrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDwofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDwepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>9
+<td>DAJL-Basic
+<td>
+  <input type="text"  name="txtDarfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDaofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDaepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>10
+<td>Multimedia - Basic
+<td>
+  <input type="text"  name="txtMrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtMofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtMepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>11
+<td>DDNET-Complete
+<td>
+  <input type="text"  name="txtDdcrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdcofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdcepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>12
+<td>DJP
+<td>
+  <input type="text"  name="txtDjrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDjofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDjepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>13
+<td>DHT
+<td>
+  <input type="text"  name="txtDhrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDhofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDhepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>14
+<td>DCAD-Complete
+<td>
+  <input type="text"  name="txtDccrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDccofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDccepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>15
+<td>DWP
+<td>
+  <input type="text"  name="txtDwprfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDwpofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDwpepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>16
+<td>DCA
+<td>
+  <input type="text"  name="txtDcarfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDcaofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDcaepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>17
+<td>DAJL-Complete
+<td>
+  <input type="text"  name="txtDacrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDacofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDacepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>18
+<td>DBGA(Adm Fee: 3000)
+<td>
+  <input type="text"  name="txtDbgrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDbgofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDbgepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>19
+<td>DDM(Multimedia)
+<td>
+  <input type="text"  name="txtDdmrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdmofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdmepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>20
+<td>DBPL(CBSE Syllabus)
+<td>
+  <input type="text"  name="txtDbprfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDbpofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDbpepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>21
+<td>DPP(Python)
+<td>
+  <input type="text"  name="txtDpprfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDppofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDppepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>22
+<td>DDP (Adm Fee:2000)
+<td>
+  <input type="text"  name="txtDdprfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdpofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtDdpepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>23
+<td>Android Programming
+<td>
+  <input type="text"  name="txtAnrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtAnofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtAnepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>24
+<td>ADCS
+<td>
+  <input type="text"  name="txtAdrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtAdofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtAdepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>25
+<td>MDCA
+<td>
+  <input type="text"  name="txtMdrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtMdofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtMdepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>26
+<td>HDCS (Adm Fee:5000)
+<td>
+  <input type="text"  name="txtHdrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtHdofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtHdepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>27
+<td>English Typing Computer
+<td>
+  <input type="text"  name="txtegrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtegofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtegepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>28
+<td>Tamil Typing Computer
+<td>
+  <input type="text"  name="txttarfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txttaofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txttaepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>29
+<td>Spoken English Level 1
+<td>
+  <input type="text"  name="txtSprfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>30
+<td>Spoken English Level 2
+<td>
+  <input type="text"  name="txtSprfee2" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpofee2" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpepay2" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>31
+<td>Spoken English Level 3
+<td>
+  <input type="text"  name="txtSprfee3" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpofee3" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpepay3" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>32
+<td>Spoken English Complete
+<td>
+  <input type="text"  name="txtSpcrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpcofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtSpcepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>33
+<td>Kids Basic Level 
+<td>
+  <input type="text"  name="txtKbrfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtKbofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtKbepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>34
+<td>Kids Intermediate Level 
+<td>
+  <input type="text"  name="txtKirfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtKiofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtKiepay" size="15px" ></td>
+
+</tr>
+
+<tr>
+<td>35
+<td>Kids Advanced Level
+<td>
+  <input type="text"  name="txtKarfee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtKaofee" size="15px" ></td>
+  
+  <td>
+  <input type="text"  name="txtKaepay" size="15px" ></td>
+
+</tr>
+
+
+</table>
+<button onclick="myFunction()">Submit</button>
+</center>
+
+<div class="but">
+<button  ><a href="../html/adex.html">BACK</a></button>
+</div>
+
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+
+</body>
+</html>

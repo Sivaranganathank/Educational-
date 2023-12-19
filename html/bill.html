@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bill</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="Stylesheet" type="text/css" href="..\css\bill.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+@media print {
+  .noPrint{
+    display:none;
+  }
+}
+</style>
+<body>
+<form action ="billconn.php" method="post">
+<center>
+<table >
+<tr>
+<td rowspan=2 align="center"><label for="Billmo"> Bill No:</label>
+<input type="tel" name="txtBill" size="15px" class="wtmob" ></td>
+<td colspan=2 align="center">Cash Reciept</td>
+<td colspan=1 align="center" height="50px">Enrollment No:3739</td>
+</tr>
+<tr>
+<td><img src="..\image\logo1.jpg" alt="CGS INFOTECH"></td>
+<td align="center">No.3/4,Anna Salai <br>Near VASAVI MAHAL,<br>Rasipuram-637408.</td>
+<td align="center"><label for="date">Date:</label>
+  <input type="date" id="date" name="txtDate" class="dat">
+  <label for="wtmobile"> Whatsapp Mobile No:</label>
+<input type="tel" name="txtWtmobile" size="15px" class="wtmob" >
+  </td>
+</tr>
+</table>
+<table class="tab1">
+<td>
+<table class="tab">
+  <tr>
+<th>Denomination</th>
+<th>Amount</th>
+</tr>
+
+<tr>
+<td>Online Pay</td>
+<td><input type="text" name="txtOpay" size="10px"></td>
+</tr>
+
+<tr>
+<td>2000*<input type="text" name="txtH1" size="1px"></td>
+<td><input type="text" name="txtA1" size="10px"></td>
+</tr>
+
+<tr>
+<td>500*<input type="text" name="txtH2" size="1px" class="fi"></td>
+<td><input type="text" name="txtA2" size="10px"></td>
+</tr>
+
+<tr>
+<td>200*<input type="text" name="txtH3" size="1px" class="tw"></td>
+<td><input type="text" name="txtA3" size="10px"></td>
+</tr>
+
+<tr>
+<td>100*<input type="text" name="txtH4" size="1px" class="hu"></td>
+<td><input type="text" name="txtA4" size="10px"></td>
+</tr>
+
+<tr>
+<td>50*<input type="text" name="txtH5" size="1px" class="fif"></td>
+<td><input type="text" name="txtA5" size="10px"></td>
+</tr>
+
+<tr>
+<td>20*<input type="text" name="txtH6" size="1px" class="twe"></td>
+<td><input type="text" name="txtA6" size="10px"></td>
+</tr>
+
+<tr>
+<td>10*<input type="text" name="txtH7" size="1px" class="ten"></td>
+<td><input type="text" name="txtA7" size="10px"></td>
+</tr>
+
+
+<tr>
+<td>Total:</td>
+<td><input type="text" name="txtTot" size="10px"></td>
+</tr>
+</table>
+<p style="margin-top:15px;">&nbsp;&nbsp;&nbsp;&nbsp;Received with thanks from Mr/s <input type="text" name="txtName" size="20px" ><br><br>&nbsp;&nbsp;&nbsp;&nbsp;Rs.<input type="text" name="txtAmount" size="20px" >&nbsp;&nbsp;&nbsp;&nbsp;(Rupees <input type="text" name="txtRupee" size="20px" >Only)<br><br>&nbsp;&nbsp;&nbsp;&nbsp; towards course
+<select name="txtCourse" id="id pro" class="idp">
+    <option value="DCA">DCA</option>
+    <option value="WEB DEVELOPMENT">WEB DEVELOPMENT</option>
+    <option value="SPOKEN ENGLISH">SPOKEN ENGLISH</option>
+    <option value="JAVA">JAVA</option>
+    <option value="PYTHON">PYTHON</option>
+    <option value="DBCS">DBCS</option>
+  </select> 
+  <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paid By&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Receiver's Signature
+  
+  <br><br><br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note:&nbsp;&nbsp;1.&nbsp;The fess should be paid as per fees schedule on 1st of every Month.
+  <br>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;The Grace period of 10 days allowed every month without penalty.
+  
+  <br>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;From 11th day to 20th day, the late fee of Rs.300 will be Collected. 
+  
+   <br>
+   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;Fee once paid will not be refundable.
+   
+   
+  </p>
+</td>
+</table>
+</center><br>
+<center> 
+<center>
+  <button onclick="window.print();"class="noPrint">Submit</button>
+  </center><br><br>
+<button class="noPrint">
+<a href="..\html\myindex.html" class="btn text-white" class="text-decoration-none text-white" role="button">BACK</a>
+
+<button onclick="window.print();" class="noPrint">
+Print
+</button>
+
+</button>
+</center>
+</body>
+</html>

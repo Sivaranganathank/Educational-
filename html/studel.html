@@ -1,0 +1,145 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="..\css\studel.css"></link>
+</head>
+<body>
+<form action ="studelconn.php" method="post">
+<title>Student Details</title>
+<center>
+<table class="tab">
+<div>
+<td>
+<h1 class="hed">Student's Detail</h1>
+<form >
+  <label for="name"  style="color:orange;">Name :</label>
+  <input type="text" id="name" name="txtName" size="20px" class="name" ><br>
+  <div class="div1">
+  <table >
+
+  <tr>
+    <th >Enroll No</th>
+    <th>Date of Admission</th>
+    <th >Course</th>
+    <th >Net Fees</th>
+  </tr>
+
+  <tr>
+    <td><center><input type="text" id="enroll" name="txtEnroll" size="10px" ></center></td>
+    <td><center><input type="text" id="Admission" name="txtDadmis" size="10px" ></center</td>
+     <td><center><input type="text" id="course" name="txtCourse" size="10px"></center</td>
+    <td><center><input type="text" id="netfees" name="txtFee" size="10px" ></center</td>
+  </tr>
+  <tr>
+  <td colspan="4"><label for="address">Address:</label>
+<textarea name="txtAddress" cols="30"  rows="3" class="add" s ></textarea></td>
+  </tr>
+  </table>
+  </div>
+  <div class="div2">
+  </div>
+  <br>
+  <div class="div3">
+  <label for="schm" >Scheme:</label>
+  <input type="text" id="schm" name="txtSchm" size="10px" class="schm" >
+  
+   <label for="time" >Time:</label>
+<input type="time" name="txtTime" size="15px" class="tim" >
+
+<label for="wtmobile"> Whatsapp Mobile No:</label>
+<input type="tel" name="txtWtmobile" size="15px" class="wtmob" ><br>
+</div >
+<table >
+ <center><h2>Fees Details</h2></center>
+  <tr>
+    <th >Total Fees</th>
+    <th > Next Pay Date</th>
+    <td >Dt.<center><input type="text" id="col1" name="txtDate1" size="6px" ></center></td>
+  </tr>
+  <tr>
+    <td >Rs.<center><input type="text" id="col6" name="txtTotfee" size="5px" ></center></td>
+    <th >Next Pay Amount<center><input type="text" id="col7" name="txtNexpay" size="5px" ></center</th>
+     <td >Rs.<center><input type="text" id="col8" name="txtAmt1" size="5px"></center</td>
+  </tr>
+  </table><br>
+
+  <table >
+  <center><h2>Payment Details</h2></center>
+  <tr>
+  <th >S.No.</th>
+  <th >Bill.NO.</th>
+  <th >Date Of Payment</th>
+  <th >Amount</th>
+  <th >Tax</th>
+  <th >Balance</th>
+  </tr>
+  
+  <tr>
+  <td><center><input type="text" id="col" name="txtSno" size="5px" class="sno"></center></td>
+  <td><center><input type="text" id="col" name="txtBill" size="5px" ></center></td>
+  <td><center><input type="text" id="col" name="txtDpay" size="7px" ></center></td>
+  <td><center><input type="text" id="col" name="txtAmount" size="5px" ></center></td>
+  <td><center><input type="text" id="col" name="txtTax" size="5px" ></center></td>
+  <td><center><input type="text" id="col" name="txtBalance" size="5px" ></center></td>
+  </tr>
+  </table>
+ <br>
+  
+ 
+  <table class="tab1">
+  <center><h2>Book Issue Details</h2></center>
+  <tr>
+  <th >Date</th>
+  <th >Book Name</th>
+  </tr>
+  
+  <tr>
+  <td><center><input type="text" id="col" name="txtBdat" size="26px" ></center></td>
+  <td><center><input type="text" id="col" name="txtBname" size="26px" ></center></td>
+  </tr>
+  </table>
+<br>
+  
+  
+  <center><h2>About Student</h2>
+ <div class="formfield">
+  <label for="col">Description:</label>
+ <textarea name="txtDescri" cols="30"  rows="3" class="add" ></textarea>
+ </div>
+ </center>
+ 
+  <div class="div3">
+  <center><h2 class="cert">Certificate Issue Details</h2></center>
+  
+  <label for="col" >Certificate No:</label>
+  <input type="text" id="col" name="txtCertino" size="20px" >
+  
+  
+  <label for="col" class="dat">Date Of Issue:</label>
+  <input type="text" id="col" name="txtIdat" size="20px" ><br>
+  
+  
+  <label for="col" >Issued By:</label>
+  <input type="text" id="col" name="txtIssue" size="20px" class="iss">
+  
+  
+  <label for="col" class="ove" >Overall Grade:</label>
+  <input type="text" id="col" name="txtGrade" size="20px" ><br>
+  </div>
+  <center>
+  <button onclick="myFunction()">Submit</button>
+  </center>
+</form>
+</td>
+</table>
+</center>
+</div>
+<div>
+<button ><a href="../html/adex.html">BACK</a></button>
+</div>
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+</body>
+</html>

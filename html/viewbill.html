@@ -1,0 +1,144 @@
+<html>
+<body style="background-image:bg4.jpg">
+<style>
+body
+{
+	
+	background-image:url('../image/bg4.jpg');
+	background-repeat:no-repeat;
+}
+
+
+label
+{
+	color:orange;
+}
+
+h1
+{
+	text-align:center;
+	border-radius:25px;
+	width:60%;
+	color:white;
+	background-color:#76A89D;
+}
+
+h2
+{
+	text-align:center;
+}
+
+.tab
+{
+
+	width:65%;
+	font-family:Arial;
+	border:5px solid ;
+	background-color:rgb(0,0,0,0.5);
+	border-radius: 25px;
+	border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+
+form
+{
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+	margin-left:20px;
+}
+
+input[type=text] {
+  height:10px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Arial;
+	font-size:20px;
+}
+
+.mob
+{
+	margin-right:0%;
+	margin-top:23px;
+	font-family:arial;
+}
+
+table
+{
+	color:white;
+	 font-family:Arial;
+	 border-radius:10px;
+	 border:2px solid ;
+	 width:100%;
+}
+
+.moblab
+{
+	margin-right:70px;
+}
+
+	
+button 
+{
+  font-size: 20px;
+  border: solid #76A89D;
+  cursor: pointer;
+  text-align: center;
+  width:160px;
+  height:40px;
+  color:white;
+  border-radius: 25px;
+  background-color:#76A89D;
+  margin-top:20px;
+}
+
+a
+{
+	 text-decoration:none;
+	 color:white;
+}
+</style>
+<head>
+  <link rel="Stylesheet" type="text/css" href="viewad.css"></link>
+</head>
+<form action ="viewbill1.php" method="post">
+<center>
+<table class="tab">
+<td>
+<form>
+<center>
+<h1>View Bill Details</h1>
+<p>
+  <label for="name" >Name Mr./Mrs./Ms.:</label>
+  <input type="text" id="name" name="txtName"  class="text" ><br>
+  </p>
+  
+<p>
+<label for="mobile" class="moblab">Whatsapp Mobile No:</label>
+<input type="text" name="txtWtmobile" placeholder="123456780" pattern="[0-9]{10}" required size="15px" 
+class="mob" ><br>
+</p>
+
+</center>
+</form>
+</td>
+</table>
+<center>
+  <p>
+<button>Submit</button>
+</p>
+</center>
+</center>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="Stylesheet" type="text/css" href="../css/admis.css"></link>
+</head>
+<body>
+<form action ="conn1 new.php" method="post">
+<center>
+<table class="tab">
+<div>
+<td>
+<h1>Admission Form</h1>
+<form >
+<center>
+<table >
+<td>
+<p>
+  <label for="cname"  class="c1">Course Name:</label>
+  <input type="text" id="cname" name="txtCname"  >
+  </p>
+ <p>
+  <label for="sess" class="s1">Session:</label>
+  <input type="text" id="sess" name="txtSess"   ><br><br>
+  </p>
+  </td>
+</table>
+</center>
+<p>
+  <label for="name" >Name Mr./Mrs./Ms.:</label>
+  <input type="text" id="name" name="txtName"  class="text" ><br>
+  </p>
+  <p>
+  <label for="fname" >Father's/Husband's/Guardian's Name:</label>
+  <input type="text" id="fname" name="txtFname"  class="f1"><br>
+  </p>
+  <p>
+  <label for="occu" >Occupation of Father/Husband/Guardian:</label>
+  <input type="text" id="occu" name="txtOccu"  class="occ" ><br>
+  
+  <label for="incom" >Family income per Month:</label>
+  <input type="text" id="incom" name="txtIncome"  class="incom"><br>
+  
+  <label for="DOB" >DOB:</label>
+  <input type="date" id="DOB" name="txtDOB"  class="dob">
+  
+  <label for="age"  class="age">Age:</label>
+  <input type="text" id="age" name="txtAge"  >
+  
+  <label for="gen" class="gen">Gender:</label>
+  <input type="text" id="gen" name="txtGender"  ><br>
+  
+  <label for="edu" >Educational Qualification:</label>
+  <input type="text" id="edu" name="txtEduqua"  class="edu">
+  
+  <label for="rel" class="rel">Religion:</label>
+  <input type="text" id="rel" name="txtReligion"  ><br>
+  
+  <label for="cas">Caste Category:</label>
+  <select name="txtCastecat" id="cas" class="cas">
+    <option value="OC">OC</option>
+    <option value="BC">BC</option>
+    <option value="MBC">MBC</option>
+    <option value="SC">SC</option>
+	<option value="ST">ST</option>
+    <option value="Others">Others</option>
+  </select ><br>
+  
+  <label for="caste" class="cas1">Caste:</label>
+  <input type="text" id="caste" name="txtCaste"  ><br>
+  
+ <label for="occu1">Occupation:</label>
+  <select name="txtCanoccu" id="occu1" class="occu">
+    <option value="student">Student</option>
+    <option value="wife">House Wife</option>
+    <option value="emp">Employed</option>
+    <option value="unemp">Un Employed</option>
+	<option value="Business">Business</option>
+    <option value="Retired">Retired</option>
+    <option value="other">Others</option>
+  </select><br>
+  
+  <label for="col" >College/School/Concern Name:</label>
+  <input type="text" id="col" name="txtColl"  class="col"><br>
+  
+  <label for="address">Address:</label>
+<textarea name="txtAddress" cols="30"  rows="3" class="add" ></textarea><br>
+  
+  
+  <label for="mobile">Mobile No:</label>
+<input type="tel" name="txtMobile" placeholder="123456780" pattern="[0-9]{10}" required size="15px" 
+class="mob"><br>
+  
+  <label for="wtmobile"> Whatsapp Mobile No:</label>
+<input type="tel" name="txtWtmobile"  class="wtmob"><br>
+
+<label for="email">Email ID:</label>
+  <input type="email" id="email" placeholder="cgseducation@gmail.com" name="txtEmail" class="mail"><br>
+  
+  <label for="ID">ID Proof:</label>
+  <select name="txtId" id="id pro" class="idp">
+    <option value="Aadhar">Aadhar ID</option>
+    <option value="Driving">Driving License</option>
+    <option value="Voter">Voter ID </option>
+    <option value="Mark">Mark Sheet</option>
+    <option value="other">Others</option>
+  </select> 
+  
+   <label for="num"  class="idn">Id Number:</label>
+  <input type="text" id="num" name="txtNum"  class="idni" ><br>
+  
+   <label for="date">Date:</label>
+  <input type="date" id="date" name="txtDate" class="dat">
+  
+  <label for="time"  class="tim">Time:</label>
+<input type="time" name="txtTime"  class="tim1" ><br>
+
+<label for="fee"  >Total Fee:</label>
+  <input type="text" id="fee" name="txtTfee"  class="fee" >
+  
+  <label for="pay" class="met">Method of Payment:</label>
+  <input type="text" id="pay" name="txtMpay"   ><br>
+  
+  <label for="ini" >Initial Pay:</label>
+  <input type="text" id="ini" name="txtInitial"  class="pay" >
+  
+  <label for="schm" class="schm">Scheme:</label>
+  <input type="text" id="schm" name="txtScheme"  class="schm1"  ><br>
+  <center>
+  <p>
+<button onclick="myFunction()">Submit</button>
+</p>
+</center>
+</form>
+</table>
+</center>
+</div>
+<div>
+<button ><a href="myindex.html">BACK</a></button>
+</div>
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+</form>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Certificate</title>
+  <link rel="Stylesheet" type="text/css" href="..\css\certificate.css"></link>
+</head>
+<style>
+.mob
+{
+	color:orange;
+	margin-left:45px;
+}
+
+.en
+{
+	color:orange;
+	margin-left:10px;
+}
+</style>
+<body>
+<form action ="certiconn.php" method="post">
+<center>
+<div>
+<table>
+<td>
+<form>
+<h1>Certificate Issued Details</h1><br>
+
+  <label for="enrol" class="mob">Mobile Number:</label>
+  <input type="text"  name="txtMobile" size="10px" class="mobile" >
+  
+  <label for="enrol" class="en">Enroll Number:</label>
+  <input type="text"  name="txtEnroll" size="10px" class="enroll" ><br>
+  
+  <label for="name" class="nam">Name:</label>
+  <input type="text"  name="txtName" size="20px" class="name" ><br>
+  
+  <label for="cou" class="cou">Course:</label>
+  <input type="text"  name="txtCourse" size="20px" class="course" ><br>
+  
+   <label for="cer" class="cer">Certificate No:</label>
+  <input type="text"  name="txtCerti" size="20px" class="certi" ><br>
+  
+   <label for="dat" class="dat">Date of issue:</label>
+  <input type="text"  name="txtDate" size="20px" class="date" ><br>
+  
+   <label for="issu" class="issu">Issued By:</label>
+  <input type="text"  name="txtIssued" size="20px" class="issued" ><br>
+  
+   <label for="gra" class="gra">Overall Grade:</label>
+  <input type="text"  name="txtGrade" size="20px" class="grade" ><br>
+</form>
+</td>
+</table>
+<button onclick="myFunction()" >Submit</a></button>
+<button style="float:left;"><a href="../html/adex.html">BACK</a></button>
+</div>
+</center>
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+</body>
+</html>

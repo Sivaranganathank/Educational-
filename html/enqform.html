@@ -1,0 +1,111 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="..\css\enqform.css"></link>
+<form action ="enqconn.php" method="post">
+</head>
+<body>
+<center>
+<table>
+<div float="left">
+<td>
+<h1>Enquiry Form</h1>
+ <label for="name">Name:</label>
+<input type="text" name="txtName" size="30px" class="text"><br>
+
+<label for="address">Address:</label>
+<textarea name="txtAddress" cols="30"  rows="3"  class="add"></textarea><br>
+
+<label for="mobile">Mobile No:</label>
+<input type="text" name="txtMobile" placeholder="123456780" pattern="[0-9]{10}" required size="30px" class="mob"><br>
+
+<label for="wtmobile"> Whatsapp Mobile No:</label>
+<input type="text" name="txtWtmobile" size="30px" class="wtmob"><br>
+
+<label for="qualification">Qualification:</label>
+<input type="text" name="txtQua" size="30px" class="qua" ><br>
+
+
+   <label for="course">Course:</label>
+  <select name="txtCourse"  class="cas">
+    <option value="Dca">Dca</option>
+    <option value="Web Development ">Web Development</option>
+    <option value="Java">Java</option>
+    <option value="Dbcs">Dbcs</option>
+	<option value="Python">Python</option>
+    <option value="C++">C++</option>
+  </select ><br>
+  
+  
+  <label for="date">Date:</label>
+  <input type="date" id="date" name="txtDate" class="dat"><br>
+
+<label for="time">Time:</label>
+<input type="time" name="txtTime" size="30px"  class="tim"><br>
+
+<label for="know" class="know">How to do you come to know <br>about CGS Infotech through:</label>
+
+<input type="checkbox"  name="txtKnown[]" value="wall poster " class="chec">
+<label for="wall" >Wall Posters</label>
+
+<input type="checkbox"  name="txtKnown[]" value="pamplets " >
+<label for="pam">pamplets</label>
+
+<input type="checkbox"  name="txtKnown[]" value="faculty " class="fac">
+<label for="fac">Faculty</label><br>
+ 
+<input type="checkbox"  name="txtKnown[]" value="CGS Student  " class="cgs" >
+<label for="stu">CGS Student</label>
+
+<input type="checkbox"  name="txtKnown[]" value="news paper  "  class="tele">
+<label for="news">News Paper</label>
+
+<input type="checkbox"  name="txtKnown[]" value="Television " class="tele" >
+<label for="tele" >Television</label>
+<br>
+
+<label for="handle">Enquiry Handled by:</label>
+<input type="text" name="txtEnq" size="30px" class="enq" ><br>
+
+<label for="enq">About Enquiry:</label>
+
+<input type="checkbox"  name="txtAbout[]" value="enquiry" size="20px" class="go">
+<label for="good">Good</label>
+
+<input type="checkbox"  name="txtAbout[]" value="enquiry" size="20px">
+<label for="just">Just Enquiry About Course</label>
+
+<input type="checkbox"  name="txtAbout[]" value="enquiry" size="20px">
+<label for="other">other</label><br>
+
+<label for="details">Details About Enquiry:</label>
+<input type="text" name="txtDetail" size="30px" class="de"><br>
+
+<label for="fee">Course and Fee Details:</label>
+<input type="text" name="txtFee" size="30px" class="fe" ><br>
+
+<label for="fol1">Follow Up1:</label>
+<input type="text" name="txtFoll1" size="30px" class="fo" ><br>
+
+<label for="fol2">Follow Up2:</label>
+<input type="text" name="txtFoll2" size="30px" class="fo" ><br>
+
+<label for="fol3">Follow Up3:</label>
+<input type="text" name="txtFoll3" size="30px" class="fo"><br>
+</form>
+<center>
+<button onclick="myFunction()" class="sp">Submit</button>
+</center>
+</td>
+</table>
+</center>
+</div>
+<div float="right">
+<button ><a href="../html/adex.html" class="right">BACK</a></button>
+</div>
+<script>
+function myFunction() {
+  alert("Successfully Submitted!");
+}
+</script>
+</body>
+</html>
